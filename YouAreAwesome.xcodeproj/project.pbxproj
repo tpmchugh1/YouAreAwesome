@@ -6,17 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		227484BC2F3014E800C9D141 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227484B92F3014E800C9D141 /* Main.swift */; };
+		227484BD2F3014E800C9D141 /* YouAreAwesomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227484BA2F3014E800C9D141 /* YouAreAwesomeApp.swift */; };
+		227484BE2F3014E800C9D141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227484B82F3014E800C9D141 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		227484AA2F3014DD00C9D141 /* YouAreAwesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouAreAwesome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		227484B82F3014E800C9D141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		227484B92F3014E800C9D141 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		227484BA2F3014E800C9D141 /* YouAreAwesomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouAreAwesomeApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		227484AC2F3014DD00C9D141 /* YouAreAwesome */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = YouAreAwesome;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		227484A72F3014DD00C9D141 /* Frameworks */ = {
@@ -32,7 +33,7 @@
 		227484A12F3014DD00C9D141 = {
 			isa = PBXGroup;
 			children = (
-				227484AC2F3014DD00C9D141 /* YouAreAwesome */,
+				227484BB2F3014E800C9D141 /* YouAreAwesome */,
 				227484AB2F3014DD00C9D141 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +44,16 @@
 				227484AA2F3014DD00C9D141 /* YouAreAwesome.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		227484BB2F3014E800C9D141 /* YouAreAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				227484BA2F3014E800C9D141 /* YouAreAwesomeApp.swift */,
+				227484B92F3014E800C9D141 /* Main.swift */,
+				227484B82F3014E800C9D141 /* Assets.xcassets */,
+			);
+			path = YouAreAwesome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +70,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				227484AC2F3014DD00C9D141 /* YouAreAwesome */,
 			);
 			name = YouAreAwesome;
 			packageProductDependencies = (
@@ -109,6 +117,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227484BE2F3014E800C9D141 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227484BC2F3014E800C9D141 /* Main.swift in Sources */,
+				227484BD2F3014E800C9D141 /* YouAreAwesomeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

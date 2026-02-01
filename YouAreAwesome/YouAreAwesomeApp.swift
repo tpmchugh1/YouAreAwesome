@@ -8,7 +8,7 @@ import SwiftUI
 struct YouAreAwesomeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Main()
         }
     }
 }
